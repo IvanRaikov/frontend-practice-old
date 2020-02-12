@@ -1,0 +1,54 @@
+body{
+    font-family: Arial, sans-serif;
+    padding:0;
+    margin:0;
+}
+nav{
+    width:100%;
+    background:#002752;
+}
+
+ul{
+    padding:0;
+}
+
+
+nav li{
+    display:inline-block;
+    
+}
+nav a{
+    display:block;
+    color:#88abc7;
+    padding:20px;
+    text-decoration: none;
+}
+nav a:hover{
+    background:#88abc7;
+    color:#002752;
+}
+.trigger-menu{
+    display:none;
+}
+
+@media screen and (max-width:500px){
+    nav li{
+        display:block;
+    }
+    
+    nav a{
+        border-bottom:1px solid black;
+    }
+    
+    nav ul{
+        display:none;
+    }
+    
+    .trigger-menu{
+        display:block;
+        padding:20px;
+        background:#002752;
+        color:#88abc7;
+    }
+    
+}

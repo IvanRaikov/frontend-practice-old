@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>javascript application</title>
+    <link rel='stylesheet' href='css/style.css'>
+    <link rel='stylesheet' href='/common-css/style.css'>
+    </head>
+<body>
+    <div class="slideShowContainer">
+        <div class="slide fade">
+            <div class="numberText">1/3</div>
+            <img src="image/slide1.jpg">
+            <div class="text">Text</div>
+        </div>
+        
+        <div class="slide fade">
+            <div class="numberText">2/3</div>
+            <img src="image/slide2.jpg">
+            <div class="text">Text</div>
+        </div>
+        
+        <div class="slide fade">
+            <div class="numberText">3/3</div>
+            <img src="image/slide3.jpg">
+            <div class="text">Text</div>
+        </div>
+        
+        <a class="prev" onclick="minusSlide()">prev</a>
+        <a class="next" onclick="plusSlide()">next</a>
+        <br>
+        <div>
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </div>
+    <script src="java-script/js.js"></script>
+</body>
+</html>

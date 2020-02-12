@@ -1,0 +1,35 @@
+.slideShowContainer{
+    position:relative;
+    max-width:800px;
+    margin:auto;
+    text-align:center;
+}
+img{
+    max-width:800px;
+}
+.prev, .next{
+    cursor:pointer;
+    position:absolute;
+    top:50%;
+    width:auto;
+    color:white;
+    padding:20px;
+    border:1px solid black;
+}
+.next{
+    right:0;
+}
+.prev{
+    left:0;
+}
+.dot{
+    cursor:pointer;
+    height:15px;
+    width:15px;
+    background:black;
+    display:inline-block;
+    border-radius:50%;
+}
+.active, .dot:hover{
+    background:#717171;
+}

@@ -1,0 +1,62 @@
+
+body{
+    background-image:url('/common-css/image/background-image.jpg');
+    font:bold small-caps 15px fantasy;
+}
+
+#mainContent{
+    display:none;
+}
+
+#main-ul{
+    list-style:none;
+    max-width:200px;
+}
+
+.main-li, a{
+    text-decoration: none;
+    color:black;
+    padding:5px;
+    border-radius:3px;
+    transition:0.2s;
+}
+.main-li a:hover{
+    background:#89acc8;
+    box-shadow:5px 5px 5px darkslategrey;
+    transition:0.2s;
+}
+#main-ul li{
+    position:relative;
+    padding: 0;
+    margin:0;
+}
+.hidden{
+    display:none;
+}
+
+.showhelp{
+    display:block;
+    position:absolute;
+    left:200px;
+    top:0px;
+    border:1px solid grey;
+    padding:5px;
+    border-radius:3px;
+    background:grey;
+    max-width:300px;
+}
+
+.showhelp::after{
+    content:'';
+    display:block;
+    position:absolute;
+    border-right:20px solid grey;
+    border-top:10px solid transparent;
+    border-bottom:10px solid transparent;
+    left:-20px;
+    top:0px;
+}
+
+
+
+

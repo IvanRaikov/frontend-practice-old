@@ -1,0 +1,40 @@
+body{
+    background-image: url('/common-css/image/background-image.jpg');
+}
+
+.modal{
+    display:none;
+    position:fixed;
+    z-index:1;
+    left:10%;
+    top:10%;
+    width:80%;
+    height:80%;
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 5px;
+}
+
+.modalContent{
+    background:#fefefe;
+    padding:20px;
+    border: 1px solid black;
+    width:70%;
+    height:400px;
+    margin: 1% auto;
+    border-radius: 5px;
+}
+
+.close{
+    float:right;
+    margin:10px;
+    color:red;
+    padding:5px;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+
+.close:hover{
+    background:red;
+    color:white;
+    transition: 0.5s;
+}

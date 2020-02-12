@@ -1,0 +1,26 @@
+#progress-container{
+    width:800px;
+    height:300px;
+    border:1px solid #88abc7;
+    margin:auto;
+    border-radius:5px;
+    padding:100px;
+    text-align: center;
+}
+#progress{
+    width:300px;
+    height:30px;
+    background:#ddd;
+    border-radius:3px;
+    margin:auto;
+    padding:3px;
+}
+#bar{
+    width:0%;
+    height:100%;
+    background:green;
+    border-radius:3px;
+}
+#label{
+    text-align: center;
+}
